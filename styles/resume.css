@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+}
+
+.web-font {
+    font-family: "webfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.layout {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resume {
+    max-width: 595px;
+    min-width: 595px;
+}
+
+.header {
+    height: 8.5rem;
+    background-color: rgb(251, 251, 251);
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.header .h-border {
+    border-style: solid;
+    border-color: rgb(209, 196, 169);
+    border-width: .2rem;
+    height: 7rem;
+    margin: 0 2rem;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 3rem;
+    color: rgb(209, 196, 169);
+}
+
+.header-text {
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(147, 146, 148);
+    font-weight: 600;
+}
+
+.header .h-info {
+    height: 3rem;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.header .h-info .iconfont {
+    color: rgb(209, 196, 169);
+    font-size: 12px;
+}
+
+.content {
+    padding: 2rem;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.p-title {
+    color: rgb(147, 146, 148);
+    height: 1.5rem;
+    border-bottom-style: solid;
+    border-bottom-width: .2rem;
+    border-bottom-color: rgb(209, 196, 169);
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.content .profile .p-text {
+    margin-top: 1rem;
+    line-height: 1.2rem;
+}
+
+.content .srcoll {
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: 4rem;
+}
+
+.content .srcoll .left {
+    width: 30%;
+    border-right-width: .1rem;
+    border-right-style: solid;
+    border-right-color: rgb(225, 225, 225);
+}
+
+.content .srcoll .right {
+    width: 70%;
+}
+
+.content .srcoll .left .p-title {
+    margin-top: -2rem;
+    width: 82%;
+}
+
+.content .srcoll .right .p-title {
+    margin-top: -2rem;
+    float: right;
+    width: 92%;
+}
+
+.content .srcoll .left .education .edu-item {
+    margin-top: .5rem;
+}
+
+.edu-item-title {
+    color: rgb(147, 146, 148);
+    font-weight: 600;
+}
+
+.edu-item-text {
+    margin-top: .5rem;
+    line-height: 1.2rem;
+}
+
+.content .srcoll .left .skills {
+    margin-top: 3rem;
+}
+
+.skills .skills-title {
+    color: rgb(147, 146, 148);
+    font-weight: 600;
+    margin-top: .5rem;
+}
+
+.skills .skills-list {
+    padding: 0 1rem 0;
+    margin-top: .5rem;
+}
+
+.skills .skills-list li {
+    line-height: 1.2rem;
+}
+
+.content .srcoll .right .time {
+    margin-top: .5rem;
+    float: right;
+    width: 92%;
+}
+
+.work-name {
+    color: rgb(147, 146, 148);
+    font-weight: 600;
+}
+
+.work-job {
+    margin-top: .5rem;
+}
+
+.work-info {
+    margin-top: .5rem;
+    line-height: 1.2rem;
+}
+
+.work-project {
+    margin-top: .5rem;
+}
+
+.work-project li {
+    line-height: 1.2rem;
+}
+
+.pdf-print-margin-top {
+    margin-top: 5rem !important;
+}
